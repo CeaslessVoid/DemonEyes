@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <NeedDef>
+		<defName>Neava_Corruption</defName>
+		<needClass>DemonEyes.Corruption.Need_Corruption</needClass>
+		<label>Corruption</label>
+		<description>"Tremble in fear before me, as I unleash my true strength, the demon within!"</description>
+
+        <minIntelligence>Humanlike</minIntelligence>
+		<colonistAndPrisonersOnly>true</colonistAndPrisonersOnly>
+		<listPriority>320</listPriority>
+		<freezeWhileSleeping>false</freezeWhileSleeping>
+		<major>true</major>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+	</NeedDef>
+
+    <StatDef>
+		<defName>Neava_Courruption_GainSpeed</defName>
+		<label>Demonic Influence</label>
+		<description>"Its too strong... I can't contain it..."</description>
+		<category>BasicsPawn</category>
+		<defaultBaseValue>1.0</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<!---->
+		<hideAtValue>1</hideAtValue>
+		<displayPriorityInCategory>1405</displayPriorityInCategory>
+		<scenarioRandomizable>true</scenarioRandomizable>
+	</StatDef>
+
+    <StatDef>
+		<defName>Neava_Courruption_LossSpeed</defName>
+		<label>Demonic Influence</label>
+		<description>"Witness the power that I hold back"</description>
+		<category>BasicsPawn</category>
+		<defaultBaseValue>1.0</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<!---->
+		<hideAtValue>1</hideAtValue>
+		<displayPriorityInCategory>1405</displayPriorityInCategory>
+		<scenarioRandomizable>true</scenarioRandomizable>
+	</StatDef>
+
+</Defs>
